@@ -1,12 +1,16 @@
 import './Contact.css'
 import { AiOutlineMail } from "react-icons/ai";
 import { BsTelephone } from "react-icons/bs";
+import Profile from '../components/Profile';
 
 function Contact() {
     return (
       <>
+        <Profile/>
       <section className='cont-section'>
+      
       <div className="contact-sect">
+   
         <div className="contact-main">
         <div className="contact-left">
             <div className="contact-text">

@@ -128,7 +128,7 @@
  @media screen and (max-width: 830px) and (min-width: 500px) {
    .cont-section {
       background-color: #f7f8fb;
-      padding: 40px 0;
+    
   }
   .contact-main {
    display: flex;

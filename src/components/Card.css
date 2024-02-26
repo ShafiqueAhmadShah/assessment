@@ -1,0 +1,56 @@
+.main-slick{
+    width: 80%;
+    height: 480px;
+    padding: 2% 0px;
+    border: none;
+    margin: auto;
+}
+
+.slick-slider{
+    height: 100%;
+}
+
+.main-card{
+   padding: 20px !important;
+}
+
+.card-man{
+    text-align: center;
+    width: 100%;
+    height: 340px !important;
+    border: 2px solid grey !important;
+}
+
+.card-man img{
+    width: 100%;
+    height: 60%;
+}
+
+.content-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+.content-div button{
+    background-color: rgb(25, 25, 51);
+    border: none;
+    width: max-content;
+}
+
+
+button.slick-arrow::before{
+    color: rgb(25, 25, 51) !important;
+    font-size: 40px;
+    margin: 0px -20px;
+}
+
+.slick-dots{
+    visibility: hidden;
+}
+
+
+
+
+

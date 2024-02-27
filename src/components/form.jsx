@@ -38,7 +38,7 @@ export default function Form() {
       console.log('Data to be sent:', formData);
 
       // Display an alert with the data
-      alert(`Data to be sent: ${JSON.stringify(formData, null, 2)}`);
+      alert(`User Added Succefully`);
 
       const response = await fetch('https://api.findofficers.com/hiring_test/add_employee', {
         method: 'POST',
@@ -81,9 +81,7 @@ export default function Form() {
             <div className="contact-text">
                 <h1>Contact Us</h1>
                 <p className='getintouch'>GET IN TOUCH ANYTIME!</p>
-                <p>If you have any query regarding visa consultancy, air ticketing, 
-                    travel and tour packages or you want to perform a Hajj or Umrah.
-                     feel free to contact us at any time.</p>
+               
             </div>
             <div className="contact-icon">
                 <div className="email-div">
